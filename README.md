@@ -4,7 +4,7 @@ Para esta instancia, quisiéramos que puedas realizar algunas tareas para mejora
 
 ## Punto 1
 
-El componente App en este momento está construido a través de clases. Tu tarea será transformarlo en un componente funcional.
+El componente `App` en este momento está construido a través de clases. Tu tarea será transformarlo en un componente funcional.
 
 ## Punto 2
 
