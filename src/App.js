@@ -22,20 +22,20 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class="app">
+      <div className="app">
         <header>
           <h1>Perritos</h1>
         </header>
         <main>
-          <div class="listado-perritos">
+          <div className="listado-perritos">
             {this.state.filtro === "Todos"
-              ? data.map((element) => (
-                  <CardPerrito raza={element.name} tamanio={element.size} />
+              ? data.map((element, index) => (
+                  <CardPerrito raza={element.name} tamanio={element.size} key={index} />
                 ))
               : data
                   .filter((element) => element.size === this.state.filtro)
-                  .map((element) => (
-                    <CardPerrito raza={element.name} tamanio={element.size} />
+                  .map((element, index) => (
+                    <CardPerrito raza={element.name} tamanio={element.size} key={index} />
                   ))}
           </div>
           <Botonera />
