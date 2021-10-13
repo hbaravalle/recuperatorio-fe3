@@ -18,3 +18,7 @@ La funcionalidad principal de esta aplicación es filtrar los diferentes tamaño
 - Al hacer clic en el botón "MEDIANOS", se debería actualizar el estado `filtro` con el valor `"Mediano"`.
 - Al hacer clic en el botón "GRANDES", se debería actualizar el estado `filtro` con el valor `"Grande"`.
 - Al hacer clic en el botón "TODOS", se debería actualizar el estado `filtro` con el valor `"Todos"`.
+
+## Punto 4
+
+Por último, queremos que cuando se haya montado el componente `App` se imprima el siguiente mensaje por consola: `"El componente se ha montado"`. Necesitarás utilizar métodos del ciclo de vida pero esta vez en componentes funcionales.
