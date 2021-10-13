@@ -1,4 +1,4 @@
-# Recueratorio Front End 3
+# Recuperatorio Front End 3
 
 Para esta instancia, quisiéramos que puedas realizar algunas tareas para mejorar este pequeño ejemplo.
 
