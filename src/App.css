@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #faeec7;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-bottom: 15px;
+}
+
+main .listado-perritos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-content: flex-start;
+  gap: 10px;
+  padding: 15px;
+}
+
+main .listado-perritos .perrito {
+  width: 32%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  user-select: none;
+}
+
+main .listado-perritos .perrito img {
+  border-radius: 5px 0 0 5px;
+}
+
+main .opciones-tamanio {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+main .opciones-tamanio button.opcion {
+  padding: 25px 15px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

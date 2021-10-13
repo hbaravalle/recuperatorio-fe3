@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Chihuahua",
+    "size": "Pequeño"
+  },
+  {
+    "name": "Beagle",
+    "size": "Mediano"
+  },
+  {
+    "name": "Boxer",
+    "size": "Grande"
+  },
+  {
+    "name": "Huski",
+    "size": "Grande"
+  },
+  {
+    "name": "Corgi",
+    "size": "Pequeño"
+  }
+]
